@@ -1,0 +1,95 @@
+.team_name_bold {
+  font-family: "Poppins", sans-serif;
+  color: rgb(210, 210, 210);
+}
+.team_name_nav {
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 143, 183);
+  font-size: 20px;
+}
+.navbar_ {
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+}
+
+.sidebar_col {
+  height: 100vh;
+  background-color: rgb(235, 235, 235);
+  border-right: 1px solid rgb(210, 210, 210);
+}
+
+._ddddd {
+  position: relative;
+  height: 100vh;
+}
+.textarea_div {
+  /* background-color: red; */
+  /* border-top: 1px solid rgb(210, 210, 210); */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.textarea_group {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px 15px;
+  background-color: rgb(235, 235, 235);
+  border: 2px solid transparent;
+  transition: border 0.2s ease-in-out;
+}
+.textarea_group:focus-within {
+  border: 2px solid rgb(210, 210, 210);
+}
+.textarea_ {
+  /* margin: 10px; */
+  background-color: transparent;
+  padding: 15px;
+  margin: 0;
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  resize: none;
+}
+.send_icon {
+  padding: 5px;
+  color: rgb(0, 143, 183);
+}
+.send_icon:hover {
+  background-color: rgba(0, 143, 183, 0.127);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.textarea_:focus {
+  /* outline: 3px solid rgb(210, 210, 210); */
+  outline: none;
+}
+.answers_div {
+  padding-top: 80px;
+}
+
+@media (max-width: 767px) {
+  .sidebar_col {
+    display: none;
+  }
+  .team_name_nav {
+    font-size: 15px;
+  }
+  .bottom_ {
+    font-size: 9px !important;
+  }
+  .name_ {
+    /* display: none; */
+  }
+}
