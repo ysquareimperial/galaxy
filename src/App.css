@@ -4,7 +4,7 @@
 }
 .team_name_nav {
   font-family: "Poppins", sans-serif;
-  color: rgb(0, 143, 183);
+  color: #008fb7;
   font-size: 20px;
 }
 .navbar_ {
@@ -15,6 +15,10 @@
   z-index: 1;
   height: 60px;
   background-color: rgb(255, 255, 255);
+}
+.link {
+  color: black;
+  text-decoration: none;
 }
 
 .sidebar_col {
@@ -27,6 +31,22 @@
   position: relative;
   height: 100vh;
 }
+.active {
+  background-color: rgb(0, 143, 183);
+  border: none;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 8px;
+  width: 100px;
+}
+.not_active {
+  background-color: rgba(0, 143, 183, 0.263);
+  border: none;
+  padding: 5px 15px;
+  color: rgb(0, 143, 183);
+  border-radius: 8px;
+  width: 100px;
+}
 .textarea_div {
   /* background-color: red; */
   /* border-top: 1px solid rgb(210, 210, 210); */
@@ -34,7 +54,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 15px;
+  /* padding: 15px; */
   /* display: flex;
   align-items: center;
   justify-content: center; */
@@ -47,6 +67,7 @@
   background-color: rgb(235, 235, 235);
   border: 2px solid transparent;
   transition: border 0.2s ease-in-out;
+  outline: 1px solid rgb(210, 210, 210);
 }
 .textarea_group:focus-within {
   border: 2px solid rgb(210, 210, 210);
@@ -78,7 +99,69 @@
 .answers_div {
   padding-top: 80px;
 }
+.history {
+  background-color: rgba(0, 143, 183, 0.127);
+  border-radius: 10px;
+  border: 1px solid rgb(0, 143, 183);
+  padding: 10px 15px;
+}
 
+.history_item {
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 14px;
+}
+.history_item:hover {
+  background-color: rgba(0, 143, 183, 0.127);
+  /* outline: 1px solid rgb(0, 143, 183); */
+  border-radius: 10px;
+  cursor: pointer;
+}
+.dom_spec_icon {
+  display: none;
+}
+.dom_spec {
+  outline: 1px solid rgba(0, 143, 183, 0.263);
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.dom_spec:hover .dom_spec_icon {
+  display: block;
+}
+.dom_spec:hover {
+  background-color: rgba(0, 143, 183, 0.127);
+  cursor: pointer;
+}
+._send_icon {
+  padding: 5px;
+  color: rgb(0, 143, 183);
+}
+.answers_div {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.question {
+  background-color: rgba(0, 143, 183, 0.127);
+  border-radius: 10px;
+  overflow-wrap: break-word;
+}
+.answer {
+  overflow-wrap: break-word;
+  background-color: rgb(242, 242, 242);
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.pdf {
+  background-color: rgba(0, 143, 183, 0.127);
+  margin-bottom: 10px;
+  overflow-wrap: break-word;
+  border-radius: 10px;
+  padding: 10px;
+}
 @media (max-width: 767px) {
   .sidebar_col {
     display: none;
