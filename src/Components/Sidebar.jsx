@@ -3,7 +3,7 @@ import { GoHistory } from "react-icons/go";
 import { MdOutlineChatBubbleOutline } from "react-icons/md";
 function Sidebar() {
   const history = [
-    { id: 1, name: "Coming coming soon...?" },
+    { id: 1, name: "Coming coming soon...!" },
     // { id: 2, name: "Coming coming soon...?" },
     // { id: 3, name: "Coming coming soon...?" },
   ];
