@@ -39,6 +39,16 @@
   border-radius: 8px;
   width: 100px;
 }
+.new_chat{
+  background-color: rgba(0, 143, 183, 0.263);
+  color: rgb(0, 143, 183);
+  border: none;
+  padding: 2px 7px;
+  /* color: white; */
+  font-size: 12px;
+  border-radius: 8px;
+  /* width: 100px; */
+}
 .not_active {
   background-color: rgba(0, 143, 183, 0.263);
   border: none;
