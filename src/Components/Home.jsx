@@ -333,7 +333,11 @@ function Home() {
                     <div className="answer p-3" style={{ marginBottom: 150 }}>
                       <h4>{dom1?.title}</h4>
                       <div>
-                        <img src={dom1?.url} alt="" style={{ width: "100%", borderRadius:10 }} />
+                        <img
+                          src={dom1?.url}
+                          alt=""
+                          style={{ width: "100%", borderRadius: 10 }}
+                        />
                       </div>
                       <div className="mt-3">
                         <p>{dom1?.explanation}</p>
@@ -465,6 +469,7 @@ function Home() {
               onClick={() => {
                 setShowPlaceholder(true);
                 setQuestionText("");
+                window.location.reload();
               }}
             >
               <BsPlus size="1rem" className="m-0" /> New Chat
