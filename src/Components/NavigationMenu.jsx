@@ -13,10 +13,9 @@ export default function NavigationMenu() {
           className="d-flex align-items-center justify-content-between"
         >
           <h1 className="team_name_nav m-0">
-            team
             <b>Galaxy</b>
+            i35
           </h1>
-        
         </Col>
       </Row>
     </div>
